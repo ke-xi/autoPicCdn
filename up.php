@@ -35,7 +35,7 @@ define("TYPE","GITHUB");//选择github
 
 define("USER","ke-xi");//你的GitHub/Gitee的用户名
 
-define("REPO","autoPicCdn");//必须是上面用户名下的 公开仓库
+define("REPO","kexi");//必须是上面用户名下的 公开仓库
 
 define("MAIL","1032663326@qq.com");//邮箱无所谓，随便写
 
