@@ -33,20 +33,20 @@ if(!is_callable('curl_init')){
 define("TYPE","GITHUB");//选择github
 //define("TYPE","GITEE");//选择gitee，如果使用gitee，需要手动建立master分支，可以看这里 https://gitee.com/help/articles/4122
 
-define("USER","pic-cdn");//你的GitHub/Gitee的用户名
+define("USER","ke-xi");//你的GitHub/Gitee的用户名
 
-define("REPO","cdn2");//必须是上面用户名下的 公开仓库
+define("REPO","autoPicCdn");//必须是上面用户名下的 公开仓库
 
-define("MAIL","yumusb@foxmail.com");//邮箱无所谓，随便写
+define("MAIL","1032663326@qq.com");//邮箱无所谓，随便写
 
-define("TOKEN","213");
+define("TOKEN","635eed8a57da999c4811da1975638bb7862a7452");
 // Github 去这个页面 https://github.com/settings/tokens生成一个有写权限的token（repo：Full control of private repositories 和write:packages前打勾）
 // gitee  去往这个页面 https://gitee.com/personal_access_tokens
 
 //数据库配置文件
 //请确保把当前目录下的 pic.sql 导入到你的数据库
 $database = array(
-        'dbname' => 'YourDbName',//你的数据库名字
+        'dbname' => 'kexipic',//你的数据库名字
         'host' => 'localhost',
         'port' => 3306,
         'user' => 'YourDbUser',//你的数据库用户名
@@ -54,7 +54,7 @@ $database = array(
     );
     
 
-$table = 'remote_imgs'; //表名字
+$table = 'kexi'; //表名字
 
 if(TYPE!=="GITHUB" && TYPE!=="GITEE"){
     $return['code'] = 500;
