@@ -46,7 +46,7 @@ define("TOKEN","70cd0f9ff1d8d5cbf341146fe21bccd06798328c");
 //数据库配置文件
 //请确保把当前目录下的 pic.sql 导入到你的数据库
 $database = array(
-        'dbname' => 'ke',//你的数据库名字
+        'dbname' => 'kexi',//你的数据库名字
         'host' => 'localhost',
         'port' => 3306,
         'user' => 'YourDbUser',//你的数据库用户名
@@ -94,7 +94,7 @@ function GetIP(){
 }
 function upload_github($filename, $content)
 {   
-    $url = "https://api.github.com/repos/" . USER . "/" . REPO . "/contents/" . $filename;
+    $url = "https://autopiccdn.pages.dev"/contents/" . $filename;
     $ch = curl_init();
     $defaultOptions=[
         CURLOPT_URL => $url,
