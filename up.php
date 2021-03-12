@@ -39,7 +39,7 @@ define("REPO","kexi");//必须是上面用户名下的 公开仓库
 
 define("MAIL","1032663326@qq.com");//邮箱无所谓，随便写
 
-define("TOKEN","635eed8a57da999c4811da1975638bb7862a7452");
+define("TOKEN","184a676f4ca5d54ef6b00d026d7781adce435aba");
 // Github 去这个页面 https://github.com/settings/tokens生成一个有写权限的token（repo：Full control of private repositories 和write:packages前打勾）
 // gitee  去往这个页面 https://gitee.com/personal_access_tokens
 
